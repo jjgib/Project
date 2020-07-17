@@ -1,0 +1,27 @@
+.card .card-content{
+    padding:20px;
+}
+h2{
+    color:#007bff;font-size: 22px;
+}
+.card .desc,.card .place{
+    margin-bottom: 10px;
+}
+.card .more-details{
+    margin-bottom: 20px; 
+}
+.breadcrum{
+    padding: 0;list-style: none;margin-bottom: 10px;
+}
+.breadcrum li{
+    display: inline-block;
+    padding-left: 6px;
+    font-size: 14px;
+}
+.footer {
+    padding-top: 20px;
+    font-size: 11px;
+    color: #666;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}

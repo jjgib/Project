@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+        <h1 class="site-name"><i class="fas fa-fw fa-search"></i> Job Finder</h1>
+        <ul class="breadcrum">
+          <li><a href="{{baseUrl}}">Home</a></li>
+          <li>></li>
+          <li>{{job.jobTitle}}</li>
+        </ul>
+      <div class="card">
+        <div class="card-content">
+          <h2>{{job.jobTitle}}</h2>
+          <div class="place">
+            {{job.companyName}} - {{job.jobLocation}}
+          </div>
+          <div class="desc">
+            <strong>Job Description</strong><br>
+            {{job.jobDescription}}
+          </div>
+          <div class="more-details">
+            <strong>Job Details</strong><br>
+            Job Location: {{job.jobLocation}}
+            <br>
+            Company Name : {{job.companyName}}
+            <br>
+            Job Field : {{job.jobField}}
+            <br>
+            Employment Type : {{job.employmentType}}
+          </div>
+          <a class="btn btn-primary" href="javascript:void(0);">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="footer">
+          Copyright &copy; 2019. Job Finder
+        </div>
+    </div>
+  </div>
+</div>

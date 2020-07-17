@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+        <h1 class="site-name"><i class="fas fa-fw fa-search"></i> Job Finder</h1>
+
+        
+        <div class="card bb" *ngFor="let item of AllJobs">
+            <div class="card-content">
+              <h2 class="title"><a href="{{baseUrl}}job/{{item._id}}">{{item.jobTitle}}</a></h2>
+              <div class="place">{{item.companyName}} - {{item.jobLocation}}</div>
+              <div class="desc">
+                {{item.jobDescription | slice:0:99 }}....
+              </div>
+            </div>
+          </div>
+        <div class="footer">
+          Copyright &copy; 2019. Job Finder
+        </div>
+    </div>
+  </div>
+  </div>
